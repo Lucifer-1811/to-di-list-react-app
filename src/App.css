@@ -1,0 +1,25 @@
+/* App Container */
+.app-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* App Title */
+.app-title {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* App Content */
+.app-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

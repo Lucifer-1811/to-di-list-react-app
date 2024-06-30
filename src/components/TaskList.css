@@ -1,0 +1,51 @@
+/* Task List Container */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* No Tasks Message */
+.no-tasks {
+    padding: 10px;
+    text-align: center;
+    color: #888;
+}
+
+/* Task Item */
+.task-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Task Name */
+.task-name {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Delete Button */
+.delete-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
